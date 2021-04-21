@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: left;
+    align-content: center;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.band {
+    flex: 1;
+}
+
+.band_pic {
+    max-width: 100%;
+}
+
+.main_header {
+    text-align: center;
+}
