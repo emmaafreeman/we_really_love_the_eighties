@@ -1,3 +1,9 @@
+.body {
+    background-color: black;
+    background-image: url("http://duleygrafix.com/serlinks/images/80slove_bkgrn2-min.png;");
+    color: white
+
+}
 .header {
     display: flex;
     justify-content: left;
@@ -11,6 +17,8 @@
 
 .band {
     flex: 1;
+
+
 }
 
 .band_pic {
@@ -24,4 +32,5 @@
 .title {
     margin: auto;
     font-size: 5.6rem;
+    
 }
