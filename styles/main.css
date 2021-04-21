@@ -20,3 +20,8 @@
 .main_header {
     text-align: center;
 }
+
+.title {
+    margin: auto;
+    font-size: 5.6rem;
+}
