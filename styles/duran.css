@@ -1,0 +1,47 @@
+.nav {
+    display: flex;
+}
+
+.nav__item {
+    margin: 1em auto;
+}
+
+.duran__main {
+   display: flex; 
+   margin: auto;
+   flex-direction: column;
+}
+
+.main__title {
+    margin: 1em auto;
+    font-size: 40px;
+}
+
+.main__content {
+    display: flex;
+}
+
+.main__photos {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__photo {
+    width: 300px;
+    height: 300px;
+    margin: 2em 2em;
+}
+
+.main__info {
+    padding: 2em;
+    align-items: flex-end;
+}
+
+.main__text-bold {
+    font-size: 25px;
+    margin: auto;
+}
+
+.main__text {
+    padding: 0em 2em;
+}
