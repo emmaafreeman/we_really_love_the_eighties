@@ -1,0 +1,66 @@
+@import './main.css';
+
+.navbar{
+    background-color: rgb(68, 2, 2);
+    overflow:hidden ; 
+}
+
+.navbar a{
+    color: #ff0000;
+    text-align: center;
+    padding:  108.5px;
+    font-size: 18px;  
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: rgb(231, 86, 86);
+  }
+  
+.navbar a.active {
+    background-color: #af4c4c;
+    color: white;
+  }
+
+.group-name{
+    text-align: center;
+    font-size: 2.5rem;
+   }
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.1rem;
+}
+
+ .group-picture{
+     flex-direction: column;
+     max-width: 100%;
+ }
+
+.table {
+    border-collapse: separate;
+    border-spacing: 0 15px;
+  }
+
+.th-info{
+    vertical-align: top; 
+}
+  th{
+    width: 150px;
+    border: 1px solid rgb(7, 7, 7);
+    padding: 5px;
+    vertical-align: top;
+    text-align: right;
+    color: white;
+  }
+   td {
+    width: 450px;
+    border: 1px solid rgb(3, 3, 3);
+    padding: 3px;
+    vertical-align:top;
+    text-align: left;
+    color: white;
+  }
+  
+  
