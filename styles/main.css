@@ -2,12 +2,17 @@
     background-color: black;
     background-image: url("http://duleygrafix.com/serlinks/images/80slove_bkgrn2-min.png;");
     color: white
-
 }
+
 .header {
     display: flex;
     justify-content: left;
     align-content: center;
+}
+
+.title {
+    margin: auto;
+    font-size: 5.6rem;
 }
 
 .main {
@@ -15,22 +20,57 @@
     justify-content: space-evenly;
 }
 
+.main_header {
+    text-align: center;
+}
+
 .band {
     flex: 1;
+}
 
+.band_header {
+    display: flex;
+}
 
+.header_text {
+    margin: 1em auto;
 }
 
 .band_pic {
     max-width: 100%;
 }
 
-.main_header {
-    text-align: center;
+.main img:hover {
+    opacity: 50%;
 }
 
-.title {
+.social_image {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_contact {
+    margin: 1em auto;
+}
+
+.header_contact {
     margin: auto;
-    font-size: 5.6rem;
-    
+}
+
+.contact {
+    margin: auto;
+}
+
+.footer_social_media {
+    margin: 1em auto;
+}
+
+.footer_copyright {
+    margin: auto;
 }
