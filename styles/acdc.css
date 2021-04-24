@@ -3,6 +3,7 @@
 .navbar{
     background-color: rgb(60, 2, 68);
     overflow:hidden ; 
+    justify-content: space-evenly;
 }
 
 .navbar a{
