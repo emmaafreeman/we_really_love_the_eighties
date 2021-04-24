@@ -1,7 +1,10 @@
 .body {
-    background-color: black;
+background-color: rgb(74, 5, 105);
     background-image: url("http://duleygrafix.com/serlinks/images/80slove_bkgrn2-min.png;");
-    color: white
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
 }
 
 .header {
@@ -37,6 +40,7 @@
 }
 
 .band_pic {
+    display: flex;
     max-width: 100%;
 }
 
