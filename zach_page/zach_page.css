@@ -1,8 +1,17 @@
 .header {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-content: center;
+}
+
+.nav {
+    display: flex;
     border-bottom: solid .05rem white;
+    border-top: solid .05rem white;
+}
+
+.nav__item {
+    margin: 1em auto;
 }
 
 .title {
